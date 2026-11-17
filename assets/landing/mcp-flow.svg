@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-label="Flow: AI agent to MCP server to read-only tools to SQL Server">
+<style>
+:root{--bg:#ffffff;--card:#f8fafc;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--accent:#4f46e5}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1020;--card:#111827;--ink:#e2e8f0;--muted:#94a3b8;--line:#1e293b;--accent:#818cf8}}
+.box{fill:var(--card);stroke:var(--line);stroke-width:1.5}
+.t{font:600 15px system-ui,sans-serif;fill:var(--ink)}
+.s{font:400 12px system-ui,sans-serif;fill:var(--muted)}
+.flow{stroke:var(--accent);stroke-width:2;fill:none;stroke-dasharray:6 8;animation:dash 1.4s linear infinite}
+.ok{fill:var(--accent);font:600 12px system-ui,sans-serif}
+@keyframes dash{to{stroke-dashoffset:-28}}
+@media (prefers-reduced-motion:reduce){.flow{animation:none}}
+</style>
+<rect width="960" height="220" fill="var(--bg)"/>
+<rect class="box" x="20" y="70" width="190" height="80" rx="12"/><text class="t" x="115" y="104" text-anchor="middle">AI agent</text><text class="s" x="115" y="124" text-anchor="middle">MCP-compatible</text>
+<rect class="box" x="255" y="70" width="190" height="80" rx="12"/><text class="t" x="350" y="104" text-anchor="middle">MCP server</text><text class="s" x="350" y="124" text-anchor="middle">Self-hosted</text>
+<rect class="box" x="490" y="70" width="190" height="80" rx="12"/><text class="t" x="585" y="104" text-anchor="middle">Read-only tools</text><text class="s" x="585" y="124" text-anchor="middle">Parameterized calls</text>
+<rect class="box" x="725" y="70" width="215" height="80" rx="12"/><text class="t" x="832" y="104" text-anchor="middle">SQL Server</text><text class="s" x="832" y="124" text-anchor="middle">Permitted tables only</text>
+<path class="flow" d="M210 110 H255"/><path class="flow" d="M445 110 H490"/><path class="flow" d="M680 110 H725"/>
+<text class="ok" x="480" y="190" text-anchor="middle">Table permissions and audit log sit at the MCP server</text>
+</svg>

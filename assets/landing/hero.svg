@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-label="Malvaa product catalog: three developer products">
+<style>
+:root{--bg:#ffffff;--card:#f8fafc;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--accent:#4f46e5}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1020;--card:#111827;--ink:#e2e8f0;--muted:#94a3b8;--line:#1e293b;--accent:#818cf8}}
+.card{fill:var(--card);stroke:var(--line);stroke-width:1.5}
+.num{font:600 13px ui-monospace,SFMono-Regular,Menlo,monospace;fill:var(--accent)}
+.t{font:600 19px system-ui,-apple-system,Segoe UI,sans-serif;fill:var(--ink)}
+.s{font:400 13px system-ui,-apple-system,Segoe UI,sans-serif;fill:var(--muted)}
+.flow{stroke:var(--accent);stroke-width:2;fill:none;stroke-dasharray:6 8;animation:dash 1.6s linear infinite}
+.rise{opacity:0;animation:up .7s ease-out forwards}
+.d1{animation-delay:.1s}.d2{animation-delay:.3s}.d3{animation-delay:.5s}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes dash{to{stroke-dashoffset:-28}}
+@media (prefers-reduced-motion:reduce){.flow,.rise{animation:none;opacity:1}}
+</style>
+<rect width="960" height="280" fill="var(--bg)"/>
+<g class="rise d1"><rect class="card" x="30" y="40" width="270" height="200" rx="14"/>
+<text class="num" x="54" y="80">01</text><text class="t" x="54" y="112">Flutter Admin UI</text><text class="s" x="54" y="136">Responsive dashboard kit</text><text class="s" x="54" y="200">$29 USD</text></g>
+<g class="rise d2"><rect class="card" x="345" y="40" width="270" height="200" rx="14"/>
+<text class="num" x="369" y="80">02</text><text class="t" x="369" y="112">SQL Server MCP</text><text class="s" x="369" y="136">Read-only tools for AI agents</text><text class="s" x="369" y="200">$19 USD</text></g>
+<g class="rise d3"><rect class="card" x="660" y="40" width="270" height="200" rx="14"/>
+<text class="num" x="684" y="80">03</text><text class="t" x="684" y="112">Flutter + Express</text><text class="s" x="684" y="136">Starter kit with JWT auth</text><text class="s" x="684" y="200">$19 USD</text></g>
+<path class="flow" d="M300 140 H345"/>
+<path class="flow" d="M615 140 H660"/>
+</svg>

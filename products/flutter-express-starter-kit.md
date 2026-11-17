@@ -1,8 +1,14 @@
-# Flutter & Express Starter Kit
+<p align="center">
+  <img src="../assets/landing/starter-flow.svg" alt="Animated flow from Flutter app to Express API to SQL Server" width="100%">
+</p>
 
-**A full-stack starting point: Flutter client, Express REST API, JWT auth, SQL Server.**
+<h1 align="center">Flutter & Express Starter Kit</h1>
 
-[**Get it on Gumroad — $19 USD →**](https://fattandevops.gumroad.com/l/flutter-express-starter-kit)
+<p align="center"><strong>A full-stack starting point: Flutter client, Express REST API, JWT auth, SQL Server.</strong></p>
+
+<p align="center">
+  <a href="https://fattandevops.gumroad.com/l/flutter-express-starter-kit"><strong>Get it on Gumroad — $19 USD →</strong></a>
+</p>
 
 ---
 
@@ -12,27 +18,50 @@
 |---|---|
 | **Price** | $19 USD |
 | **Category** | App Development |
-| **Technology** | Flutter, Dart, Node.js, Express, SQL Server, JWT |
+| **Technology** | Flutter 3.11+, Node.js 20+, Express, SQL Server, JWT |
+| **License** | Commercial, see LICENSE.md in the download |
 
-## What you get
+<details open>
+<summary><strong>What's included</strong></summary>
 
-- Flutter application foundation
-- Express REST API structure
-- JWT-based authentication
-- SQL Server integration
+- Flutter app: login, home, and profile screens
+- Express REST API with SQL Server integration
+- JWT access and refresh tokens
+- Role-based access control and input validation
+- Rate limiting
+- 21 API tests that run without a database
+- Setup instructions in the README
 
-## Who it's for
+</details>
 
-Flutter developers who want a practical starting point for a mobile application with a separate Node.js backend.
+<details>
+<summary><strong>How to start</strong></summary>
 
-## Good to know
+1. Download and extract the project files.
+2. Follow the README to configure and start the API (localhost:3000 by default).
+3. Point the Flutter app at your API endpoint.
+4. Connect your SQL Server database and adapt the sample implementation.
 
-Check the Gumroad listing for exact package contents, setup steps, and usage terms.
+</details>
 
-## Previews
+<details>
+<summary><strong>Good to know</strong></summary>
 
-Approved architecture diagrams, sanitized screenshots, and demo links will be added to [the preview folder](../assets/products/flutter-express-starter-kit/) as they are cleared for publication.
+- Sample screens use placeholder data until connected to your endpoints.
+- You provide and configure your own SQL Server instance.
+- Review LICENSE.md in the download for usage terms.
+
+</details>
+
+<details>
+<summary><strong>Who it's for</strong></summary>
+
+Flutter developers who want a practical starting point for apps with a Node.js/Express backend and SQL Server.
+
+</details>
 
 ---
 
-[**Get it on Gumroad — $19 USD →**](https://fattandevops.gumroad.com/l/flutter-express-starter-kit)
+<p align="center">
+  <a href="https://fattandevops.gumroad.com/l/flutter-express-starter-kit"><strong>Get it on Gumroad — $19 USD →</strong></a>
+</p>

@@ -1,8 +1,14 @@
-# Malvaa
+<p align="center">
+  <img src="assets/landing/hero.svg" alt="Malvaa product catalog: three developer products" width="100%">
+</p>
 
-### Developer tools, UI kits, and starter projects for your next build.
+<h1 align="center">Malvaa</h1>
 
-Practical software for developers who want a stronger starting point — from Flutter interfaces to backend integrations and AI tooling.
+<p align="center"><strong>Developer tools, UI kits, and starter projects for your next build.</strong></p>
+
+<p align="center">
+  <a href="#products">Browse products</a> · <a href="#how-buying-works">How buying works</a> · <a href="#support">Support</a>
+</p>
 
 > **Public product catalog.** Paid source code and product files are delivered through Gumroad. Private implementation repositories are not published here.
 
@@ -16,62 +22,61 @@ Practical software for developers who want a stronger starting point — from Fl
 | 02 | [SQL Server MCP Server for AI Agents](products/sql-server-mcp-server.md) | Read-only AI access to SQL Server | $19 |
 | 03 | [Flutter & Express Starter Kit](products/flutter-express-starter-kit.md) | Mobile apps with a Node.js backend | $19 |
 
----
+<details>
+<summary><strong>01 · shadcn Admin Dashboard for Flutter</strong> — Responsive UI kit · $29</summary>
 
-### 01 · shadcn Admin Dashboard for Flutter
-**Responsive UI kit · $29 USD**
+- Light, dark, and system themes
+- Overview pages, analytics layouts, and configurable sidebar variants
+- Data tables with sorting, filtering, and pagination
+- Settings, authentication, and error screens (UI only)
 
-A responsive Flutter admin dashboard UI kit for dashboard-style applications.
+**[Get it on Gumroad →](https://fattandevops.gumroad.com/l/shadcn-admin-flutter)** · [Product page](products/flutter-admin-dashboard.md)
 
-- Dashboard layouts and navigation patterns
-- Reusable interface components
-- Data-table-oriented layouts
-- Theme and dark-mode support
+</details>
 
-[**View on Gumroad →**](https://fattandevops.gumroad.com/l/shadcn-admin-flutter) · [Details](products/flutter-admin-dashboard.md)
+<details>
+<summary><strong>02 · SQL Server MCP Server for AI Agents</strong> — Read-only · $19</summary>
 
----
+- Read-only tools: list tables, inspect schemas, read and count records
+- Default-deny table permissions per project
+- Admin panel with audit log and Agent Test chat
+- Self-hosted with Docker Compose or Node.js
 
-### 02 · SQL Server MCP Server for AI Agents
-**Read-only database integration · $19 USD**
+**[Get it on Gumroad →](https://fattandevops.gumroad.com/l/sql-server-mcp-server)** · [Product page](products/sql-server-mcp-server.md)
 
-A self-hosted Model Context Protocol (MCP) server that connects compatible AI agents to Microsoft SQL Server through controlled, read-only tools.
+</details>
 
-- Read-only database tools
-- Table-level permissions
-- Admin panel and audit logs
-- Docker-based self-hosted deployment
+<details>
+<summary><strong>03 · Flutter & Express Starter Kit</strong> — JWT auth + SQL Server · $19</summary>
 
-[**View on Gumroad →**](https://fattandevops.gumroad.com/l/sql-server-mcp-server) · [Details](products/sql-server-mcp-server.md)
+- Flutter login, home, and profile screens
+- Express REST API with SQL Server integration
+- JWT access and refresh tokens, role-based access, rate limiting
+- 21 API tests that run without a database
 
----
+**[Get it on Gumroad →](https://fattandevops.gumroad.com/l/flutter-express-starter-kit)** · [Product page](products/flutter-express-starter-kit.md)
 
-### 03 · Flutter & Express Starter Kit
-**JWT auth + SQL Server API · $19 USD**
-
-A full-stack starter project combining a Flutter client with an Express REST API and Microsoft SQL Server.
-
-- Flutter and Dart client
-- Node.js and Express API
-- JWT-based authentication
-- SQL Server integration
-
-[**View on Gumroad →**](https://fattandevops.gumroad.com/l/flutter-express-starter-kit) · [Details](products/flutter-express-starter-kit.md)
+</details>
 
 ---
 
 ## How buying works
 
+<details>
+<summary>Four steps from product page to download</summary>
+
 1. Open the Gumroad product page.
 2. Review the description, requirements, deliverables, and license terms.
 3. Complete your purchase through Gumroad.
-4. Access your files through Gumroad's delivery flow.
+4. Download your files from the Content section on the product page.
 
 Prices and deliverables may change. The Gumroad listing is the source of truth at the time of purchase.
 
+</details>
+
 ## Previews
 
-Approved screenshots, diagrams, and demo links will be added as they are cleared for publication:
+Approved screenshots, diagrams, and demo links are added as they are cleared for publication:
 
 - [Flutter Admin Dashboard](assets/products/flutter-admin-dashboard/)
 - [SQL Server MCP Server](assets/products/sql-server-mcp-server/)
@@ -79,7 +84,7 @@ Approved screenshots, diagrams, and demo links will be added as they are cleared
 
 ## Support
 
-For product questions, use the support contact on the product's Gumroad page. Include the product name and a short description of your question.
+For product questions, use the contact on the product's Gumroad page. Include the product name and a short description of your question.
 
 ## Important
 

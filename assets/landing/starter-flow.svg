@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-label="Flutter app to Express API to SQL Server">
+<style>
+:root{--bg:#ffffff;--card:#f8fafc;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--accent:#4f46e5}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1020;--card:#111827;--ink:#e2e8f0;--muted:#94a3b8;--line:#1e293b;--accent:#818cf8}}
+.box{fill:var(--card);stroke:var(--line);stroke-width:1.5}
+.t{font:600 15px system-ui,sans-serif;fill:var(--ink)}
+.s{font:400 12px system-ui,sans-serif;fill:var(--muted)}
+.flow{stroke:var(--accent);stroke-width:2;fill:none;stroke-dasharray:6 8;animation:dash 1.4s linear infinite}
+.pkt{fill:var(--accent);animation:move 2.8s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-28}}
+@keyframes move{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(560px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.flow,.pkt{animation:none}.pkt{opacity:0}}
+</style>
+<rect width="960" height="220" fill="var(--bg)"/>
+<rect class="box" x="20" y="70" width="230" height="80" rx="12"/><text class="t" x="135" y="104" text-anchor="middle">Flutter app</text><text class="s" x="135" y="124" text-anchor="middle">Login, home, profile</text>
+<rect class="box" x="365" y="70" width="230" height="80" rx="12"/><text class="t" x="480" y="104" text-anchor="middle">Express REST API</text><text class="s" x="480" y="124" text-anchor="middle">JWT access and refresh</text>
+<rect class="box" x="710" y="70" width="230" height="80" rx="12"/><text class="t" x="825" y="104" text-anchor="middle">SQL Server</text><text class="s" x="825" y="124" text-anchor="middle">Your instance</text>
+<path class="flow" d="M250 110 H365"/><path class="flow" d="M595 110 H710"/>
+<circle class="pkt" cx="250" cy="110" r="4"/>
+<text class="s" x="480" y="190" text-anchor="middle">Sample screens use placeholder data until connected to your endpoints</text>
+</svg>

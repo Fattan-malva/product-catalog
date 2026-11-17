@@ -1,8 +1,14 @@
-# SQL Server MCP Server for AI Agents
+<p align="center">
+  <img src="../assets/landing/mcp-flow.svg" alt="Animated flow from AI agent through MCP server and read-only tools to SQL Server" width="100%">
+</p>
 
-**Read-only database access for AI agents, through a self-hosted MCP server.**
+<h1 align="center">SQL Server MCP Server for AI Agents</h1>
 
-[**Get it on Gumroad — $19 USD →**](https://fattandevops.gumroad.com/l/sql-server-mcp-server)
+<p align="center"><strong>Controlled, read-only SQL Server access for MCP-compatible AI agents.</strong></p>
+
+<p align="center">
+  <a href="https://fattandevops.gumroad.com/l/sql-server-mcp-server"><strong>Get it on Gumroad — $19 USD →</strong></a>
+</p>
 
 ---
 
@@ -12,28 +18,55 @@
 |---|---|
 | **Price** | $19 USD |
 | **Category** | Software & Plugins |
-| **Technology** | Node.js, TypeScript, Docker, Microsoft SQL Server, MCP |
-| **Deployment** | Self-hosted |
+| **Technology** | Node.js 18+, TypeScript, Docker, Microsoft SQL Server, MCP |
+| **Deployment** | Self-hosted (Docker Compose or Node.js) |
+| **License** | MIT |
 
-## What you get
+<details open>
+<summary><strong>Built for safer database access</strong></summary>
 
-- Read-only database tools
-- Table-level permission controls
-- Admin panel
-- Audit logging
+- **Read-only:** the agent cannot write, update, or delete records through the provided tools.
+- **Default-deny tables:** tables are available only after you allow them for a project.
+- **Structured calls:** parameterized tools, not raw SQL from the agent.
+- **Audit log:** review every tool call in the admin panel.
+- **Rate limiting:** 60 requests per minute per API key by default.
+- **Encrypted credentials:** database passwords stored with AES-256-GCM.
 
-## Who it's for
+</details>
 
-Developers, database administrators, and AI engineers who want MCP-compatible agents to inspect permitted SQL Server data without unrestricted write access.
+<details>
+<summary><strong>Tools and admin features</strong></summary>
 
-## Good to know
+- List tables and inspect schemas
+- Read records, count records, and filter data
+- Manage connections and project-level table permissions
+- Create and manage API keys
+- Configure OAuth clients (OAuth 2.1 with PKCE and Dynamic Client Registration)
+- Test an agent connection in the Agent Test chat
 
-This is a self-hosted server. You run it in your own environment. Check the Gumroad listing for setup requirements and usage terms.
+</details>
 
-## Previews
+<details>
+<summary><strong>Requirements and limits</strong></summary>
 
-Approved architecture diagrams, sanitized screenshots, and demo links will be added to [the preview folder](../assets/products/sql-server-mcp-server/) as they are cleared for publication.
+- Node.js 18+ or Docker
+- A reachable Microsoft SQL Server database
+- A dedicated read-only SQL login is recommended, with SELECT only on the tables you expose
+- Hosting, SSL, and a domain are not included
+- No write operations, by design
+- Review database permissions and network exposure before connecting production data
+
+</details>
+
+<details>
+<summary><strong>Who it's for</strong></summary>
+
+Developers and teams building AI assistants that need controlled access to business data such as sales, inventory, and orders.
+
+</details>
 
 ---
 
-[**Get it on Gumroad — $19 USD →**](https://fattandevops.gumroad.com/l/sql-server-mcp-server)
+<p align="center">
+  <a href="https://fattandevops.gumroad.com/l/sql-server-mcp-server"><strong>Get it on Gumroad — $19 USD →</strong></a>
+</p>
