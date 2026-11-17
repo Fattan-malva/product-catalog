@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/landing/hero.svg" alt="Malvaa" width="100%">
-</p>
-
 <p align="center"><strong>Developer tools, UI kits, and starter projects for your next build.</strong></p>
 
 <p align="center">

@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="../assets/landing/starter-flow.svg" alt="Animated flow from Flutter app to Express API to SQL Server" width="100%">
-</p>
-
 <h1 align="center">Flutter & Express Starter Kit</h1>
 
 <p align="center"><strong>A full-stack starting point: Flutter client, Express REST API, JWT auth, SQL Server.</strong></p>

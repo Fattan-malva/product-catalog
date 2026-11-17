@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="../assets/landing/dashboard.svg" alt="Animated analytics bars in the Flutter admin dashboard" width="100%">
-</p>
-
 <h1 align="center">shadcn Admin Dashboard for Flutter</h1>
 
 <p align="center"><strong>A responsive Flutter UI kit for dashboard-style apps.</strong></p>

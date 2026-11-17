@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="../assets/landing/mcp-flow.svg" alt="Animated flow from AI agent through MCP server and read-only tools to SQL Server" width="100%">
-</p>
-
 <h1 align="center">SQL Server MCP Server for AI Agents</h1>
 
 <p align="center"><strong>Controlled, read-only SQL Server access for MCP-compatible AI agents.</strong></p>
