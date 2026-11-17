@@ -16,47 +16,52 @@
 
 ## Products
 
-| | Product | Best for | Price |
-|---|---|---|---|
-| 01 | [shadcn Admin Dashboard for Flutter](products/flutter-admin-dashboard.md) | Dashboard-style Flutter apps | $29 |
-| 02 | [SQL Server MCP Server for AI Agents](products/sql-server-mcp-server.md) | Read-only AI access to SQL Server | $19 |
-| 03 | [Flutter & Express Starter Kit](products/flutter-express-starter-kit.md) | Mobile apps with a Node.js backend | $19 |
+<!-- catalog:start -->
+| | Product | Price |
+|---|---|---|
+| 01 | [HRNEST: Attendance & Payroll System (Laravel)](https://fattandevops.gumroad.com/l/mkptdb) | $29 |
+| 02 | [SQL Server MCP Server for AI Agents — Read-Only](https://fattandevops.gumroad.com/l/sql-server-mcp-server) | $19 |
+| 03 | [Flutter & Express Starter Kit — JWT Auth + SQL Server API](https://fattandevops.gumroad.com/l/flutter-express-starter-kit) | $19 |
+| 04 | [shadcn Admin Dashboard for Flutter — Responsive UI Kit](https://fattandevops.gumroad.com/l/shadcn-admin-flutter) | $29 |
 
 <details>
-<summary><strong>01 · shadcn Admin Dashboard for Flutter</strong> — Responsive UI kit · $29</summary>
+<summary><strong>01 · HRNEST: Attendance & Payroll System (Laravel)</strong> — $29</summary>
 
-- Light, dark, and system themes
-- Overview pages, analytics layouts, and configurable sidebar variants
-- Data tables with sorting, filtering, and pagination
-- Settings, authentication, and error screens (UI only)
+Turn attendance records into monthly payroll automatically, with PDF reports
 
-**[Get it on Gumroad →](https://fattandevops.gumroad.com/l/shadcn-admin-flutter)** · [Product page](products/flutter-admin-dashboard.md)
+[Get it on Gumroad →](https://fattandevops.gumroad.com/l/mkptdb)
 
 </details>
 
 <details>
-<summary><strong>02 · SQL Server MCP Server for AI Agents</strong> — Read-only · $19</summary>
+<summary><strong>02 · SQL Server MCP Server for AI Agents — Read-Only</strong> — $19</summary>
 
-- Read-only tools: list tables, inspect schemas, read and count records
-- Default-deny table permissions per project
-- Admin panel with audit log and Agent Test chat
-- Self-hosted with Docker Compose or Node.js
+Connect MCP-compatible AI agents to SQL Server through controlled read-only tools, table permissions, an admin panel, and audit logs.
 
-**[Get it on Gumroad →](https://fattandevops.gumroad.com/l/sql-server-mcp-server)** · [Product page](products/sql-server-mcp-server.md)
+[Get it on Gumroad →](https://fattandevops.gumroad.com/l/sql-server-mcp-server) · [Product page](products/sql-server-mcp-server.md)
 
 </details>
 
 <details>
-<summary><strong>03 · Flutter & Express Starter Kit</strong> — JWT auth + SQL Server · $19</summary>
+<summary><strong>03 · Flutter & Express Starter Kit — JWT Auth + SQL Server API</strong> — $19</summary>
 
-- Flutter login, home, and profile screens
-- Express REST API with SQL Server integration
-- JWT access and refresh tokens, role-based access, rate limiting
-- 21 API tests that run without a database
+Start a full-stack Flutter app with an Express REST API, JWT access and refresh tokens, role-based access, and SQL Server.
 
-**[Get it on Gumroad →](https://fattandevops.gumroad.com/l/flutter-express-starter-kit)** · [Product page](products/flutter-express-starter-kit.md)
+[Get it on Gumroad →](https://fattandevops.gumroad.com/l/flutter-express-starter-kit) · [Product page](products/flutter-express-starter-kit.md)
 
 </details>
+
+<details>
+<summary><strong>04 · shadcn Admin Dashboard for Flutter — Responsive UI Kit</strong> — $29</summary>
+
+Build polished Flutter admin panels faster with a responsive dashboard UI kit, data tables, themes, and configurable layouts.
+
+[Get it on Gumroad →](https://fattandevops.gumroad.com/l/shadcn-admin-flutter) · [Product page](products/flutter-admin-dashboard.md)
+
+</details>
+
+_Synced from Gumroad on 2026-11-17. Edit the listing on Gumroad, not this block._
+<!-- catalog:end -->
 
 ---
 

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-label="Malvaa product catalog: three developer products">
 <style>
-:root{--bg:#ffffff;--card:#f8fafc;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--accent:#4f46e5}
-@media (prefers-color-scheme:dark){:root{--bg:#0b1020;--card:#111827;--ink:#e2e8f0;--muted:#94a3b8;--line:#1e293b;--accent:#818cf8}}
+:root{--bg:#ffffff;--card:#f4f7f6;--ink:#14201d;--muted:#5b6b66;--line:#d9e2df;--accent:#0f766e;--bar:#99f6e4}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1816;--card:#132521;--ink:#e6f2ef;--muted:#9db5ae;--line:#1f3530;--accent:#5eead4;--bar:#134e4a}}
 .card{fill:var(--card);stroke:var(--line);stroke-width:1.5}
 .num{font:600 13px ui-monospace,SFMono-Regular,Menlo,monospace;fill:var(--accent)}
 .t{font:600 19px system-ui,-apple-system,Segoe UI,sans-serif;fill:var(--ink)}
