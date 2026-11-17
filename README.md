@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/landing/hero.svg" alt="Malvaa product catalog: three developer products" width="100%">
+  <img src="assets/landing/hero.svg" alt="Malvaa" width="100%">
 </p>
-
-<h1 align="center">Malvaa</h1>
 
 <p align="center"><strong>Developer tools, UI kits, and starter projects for your next build.</strong></p>
 
