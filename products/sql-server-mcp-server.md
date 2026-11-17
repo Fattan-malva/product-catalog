@@ -1,30 +1,39 @@
-# SQL Server MCP Server for AI Agents — Read-Only
+# SQL Server MCP Server for AI Agents
 
-**Price:** $19 USD  
-**Category:** Software & Plugins  
-**Technology:** Node.js, TypeScript, Docker, Microsoft SQL Server, MCP  
-**Purchase:** https://fattandevops.gumroad.com/l/sql-server-mcp-server
+**Read-only database access for AI agents, through a self-hosted MCP server.**
 
-## Overview
+[**Get it on Gumroad — $19 USD →**](https://fattandevops.gumroad.com/l/sql-server-mcp-server)
 
-A self-hosted Model Context Protocol (MCP) server for connecting compatible AI agents to Microsoft SQL Server through controlled, read-only database tools.
+---
 
-## Highlights
+## At a glance
+
+| | |
+|---|---|
+| **Price** | $19 USD |
+| **Category** | Software & Plugins |
+| **Technology** | Node.js, TypeScript, Docker, Microsoft SQL Server, MCP |
+| **Deployment** | Self-hosted |
+
+## What you get
 
 - Read-only database tools
 - Table-level permission controls
 - Admin panel
 - Audit logging
-- Self-hosted deployment approach
 
-## Intended users
+## Who it's for
 
-Developers, database administrators, and AI engineers who want MCP-compatible agents to inspect permitted SQL Server data without granting unrestricted write access.
+Developers, database administrators, and AI engineers who want MCP-compatible agents to inspect permitted SQL Server data without unrestricted write access.
 
-## Preview
+## Good to know
 
-Approved architecture diagrams, sanitized screenshots, and demo links will be added to [the preview folder](../assets/products/sql-server-mcp-server/).
+This is a self-hosted server. You run it in your own environment. Check the Gumroad listing for setup requirements and usage terms.
 
-## Purchase
+## Previews
 
-[View the product on Gumroad](https://fattandevops.gumroad.com/l/sql-server-mcp-server)
+Approved architecture diagrams, sanitized screenshots, and demo links will be added to [the preview folder](../assets/products/sql-server-mcp-server/) as they are cleared for publication.
+
+---
+
+[**Get it on Gumroad — $19 USD →**](https://fattandevops.gumroad.com/l/sql-server-mcp-server)
